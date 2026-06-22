@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Росатом — Выгрузка таблицы",
+  "version": "2.0",
+  "description": "Сбор данных о закупке: Excel, XML, файлы",
+  "permissions": ["activeTab", "scripting", "downloads", "webRequest"],
+  "host_permissions": ["https://zakupki.rosatom.ru/*",  "*://*.rosatom.ru/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Выгрузить таблицу"
+  }
+}

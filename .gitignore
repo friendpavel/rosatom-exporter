@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Chrome extension build artifacts
+*.crx
+*.pem
+*.zip
+
+# Editor
+.vscode/
+.idea/
+
+# *.md
